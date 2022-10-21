@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(204, 211, 218);
+}
+.content input {
+    border: 2px solid green;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    font: 18px sans-serif;
+    background: transparent;
+    color: #444;
+}
+.content input::placeholder {
+    color: rgba(0, 128, 0, 0.7);
+}
